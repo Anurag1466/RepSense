@@ -102,44 +102,6 @@ RepSense/
 └── data.db
 ```
 
-## Installation
-
-### 1. Clone the repository
-
-``` bash
-git clone https://github.com/Anurag1466/RepSense.git
-cd RepSense
-```
-
-### 2. Create and activate the environment
-
-Using `uv`:
-
-``` bash
-uv venv
-```
-
-Windows PowerShell:
-
-``` powershell
-.venv\Scripts\Activate.ps1
-```
-
-### 3. Install dependencies
-
-``` bash
-uv pip install -r requirements.txt
-```
-
-## Environment Variables
-
-Create a `.env` file in the project root:
-
-``` env
-GROQ_API_KEY=your_groq_api_key
-```
-
-Never commit `.env` or expose your API key publicly.
 
 ## Run the Application
 
